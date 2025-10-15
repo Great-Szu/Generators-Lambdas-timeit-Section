@@ -7,3 +7,9 @@
 for i in range(1, 11):
     for j in range(1, 11):
         print(i, i * j)
+
+
+timez = [(time, emit * time) for time in range(1, 11) for emit in range(1, 11)]
+
+for i in timez:
+    print(i)
